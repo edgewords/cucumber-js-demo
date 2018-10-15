@@ -1,3 +1,8 @@
+
+//
+// NOTE!!!! 
+// This is currently unused as using @Before hooks instead!
+//
 var {setWorldConstructor} = require('cucumber');
 const {Builder, By, Key, until} = require('selenium-webdriver');
 require('chromedriver'); 
