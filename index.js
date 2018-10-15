@@ -1,3 +1,5 @@
+// This file is used to convert the json format report from cucumber to html
+// Just execute using: node index.js
 var reporter = require('cucumber-html-reporter');
  
 var options = {
