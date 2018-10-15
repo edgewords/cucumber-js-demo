@@ -22,7 +22,7 @@
             "type": "node",
             "request": "launch",
             "name": "HTML Results",
-            "program": "${workspaceFolder}\\index.js"
+            "program": "${workspaceFolder}\\htmlreport.js"
         }
     ]
 }

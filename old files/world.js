@@ -3,7 +3,7 @@
 // NOTE!!!! 
 // This is currently UNused as using @Before hooks instead!
 //
-var {setWorldConstructor} = require('cucumber');
+const {setWorldConstructor} = require('cucumber');
 const {Builder, By, Key, until} = require('selenium-webdriver');
 require('chromedriver'); 
 
@@ -18,3 +18,6 @@ async function World() {
 
 }
 
+module.exports = function() {
+    this.World = World;
+  };

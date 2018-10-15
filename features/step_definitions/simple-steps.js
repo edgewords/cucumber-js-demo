@@ -2,8 +2,7 @@ const { Given, When, Then } = require('cucumber')
 const { expect } = require('chai')
 const {By, Key, until} = require('selenium-webdriver');
 
-
-Given('I am on the Google web page', async function () {   
+Given('I am on the Google web page', async function () { 
     await driver.get('https://www.google.co.uk'); 
 });
 
