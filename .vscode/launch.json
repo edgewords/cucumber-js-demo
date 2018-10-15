@@ -1,0 +1,28 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "Run all Features",
+            "runtimeExecutable": "npm.cmd",
+            "cwd": "${workspaceRoot}",
+            "env":{
+               "NODE_PATH": "${workspaceRoot}/node_modules"
+            },
+            "runtimeArgs": [
+                "run-script", "test"
+            ]
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "HTML Results",
+            "program": "${workspaceFolder}\\index.js"
+        }
+    ]
+}
