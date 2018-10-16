@@ -1,4 +1,4 @@
-const { Given, When, Then } = require('cucumber')
+const { Given, When, Then,skipped } = require('cucumber')
 const { expect } = require('chai')
 const {By, Key, until} = require('selenium-webdriver');
 
