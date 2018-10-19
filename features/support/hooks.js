@@ -5,7 +5,8 @@ var {setDefaultTimeout} = require('cucumber');
 
 BeforeAll(function() {
     // Set the Cucumber Steps timeout (default is only 5s)
-    setDefaultTimeout(30 * 1000);
+    //setDefaultTimeout(30 * 1000); // How do you turn the timeout off?
+    setDefaultTimeout(-1);
 });
 
 Before(async function() {
